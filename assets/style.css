@@ -36,3 +36,43 @@ body{
 .link:hover{
     color: #0053ff;
 }
+
+.acesso{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0 50px;
+}
+.acesso_text{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    max-width: 530px;
+}
+.acesso_h1{
+    font-size: 55px;
+    font-weight: 400;
+    padding-bottom: 25px;
+}
+.acesso_p{
+    font-weight: normal;
+    font-size: 22px;
+    padding-bottom: 45px;
+}
+.solicitar_acesso{
+    text-decoration: none;
+    font-family: 'Montserrat',Arial,sans-serif;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    background-color: blue;
+    font-size: 16px;
+    max-width: fit-content;
+    padding: 15px;
+}
+.img_acesso{
+    height: 530px;
+    width: 870px;
+    margin: 30px;
+}
